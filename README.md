@@ -5,17 +5,18 @@ The dataset contains information about laptop sales and specifications from mult
 2.Total Columns: 29
 
 ## Key Attributes:
-1.Laptop Name
-2.Brand
-3.Price
-4.Rating
-5.Processor Details
-6.RAM Capacity and Type
-7.Storage Capacity and Type
-8.Graphics Specifications
-9.Display Information
-10.Touch Screen Availability
-11.Operating System
+1. Laptop Name
+2. Brand
+3. Price
+4. Rating
+5. Processor Details
+6. RAM Capacity and Type
+7. Storage Capacity and Type
+8. Graphics Specifications
+9. Display Information
+10. Touch Screen Availability
+11. Operating System
+
 ## Why Data Cleaning Is Important:
 Data cleaning is often associated with removing null values or replacing them with mean, median, or mode values. However, applying these techniques without understanding the dataset can lead to loss of information and inaccurate analysis.
 ### For example:
