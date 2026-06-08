@@ -1,6 +1,6 @@
 # Data Cleaning Challenges:
 The dataset contains information about laptop sales and specifications from multiple brands.
-## Dataset Size:
+## Dataset Size
 1.Total Rows: 1,020
 2.Total Columns: 29
 
@@ -17,7 +17,7 @@ The dataset contains information about laptop sales and specifications from mult
 10.Touch Screen Availability
 11.Operating System
 ## Why Data Cleaning Is Important:
-Data cleaning is often associated with removing null values or replacing them with mean, median, or mode values. However, applying those techniques without understanding the dataset can lead to loss of information and inaccurate analysis.
+Data cleaning is often associated with removing null values or replacing them with mean, median, or mode values. However, applying these techniques without understanding the dataset can lead to loss of information and inaccurate analysis.
 ### For example:
 1) Dropping all rows containing null values may significantly reduce the dataset size.
 2) Replacing missing values using mean or median may not be appropriate for hardware specification columns.
@@ -45,7 +45,9 @@ The objective of this project is not to immediately remove records or replace va
 - Would replacing values using mean, median, or mode be appropriate for every column?
 - How would different cleaning decisions affect the final dataset?
 
-
-The cleaning process will be performed using both SQL Server (SSMS) and Python to understand different approaches to data profiling and data quality improvement.
+The cleaning process will be performed using both SQL Server (SSMS) and Python. The objective is to compare how different tools can be used to profile, investigate, and improve data quality within the same dataset.
 
 #### The goal is to make informed cleaning decisions rather than applying standard cleaning techniques without understanding their impact on the dataset.
+
+#### Dataset Source: Laptop Sales Dataset from Kaggle
+
