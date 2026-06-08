@@ -1,8 +1,8 @@
 # Data Cleaning Challenges:
 The dataset contains information about laptop sales and specifications from multiple brands.
 ## Dataset Size
-1.Total Rows: 1,020
-2.Total Columns: 29
+1. Total Rows: 1,020
+2. Total Columns: 29
 
 ## Key Attributes:
 1. Laptop Name
