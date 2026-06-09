@@ -1,0 +1,18 @@
+-- Create Database
+CREATE DATABASE LaptopSales;
+
+-- View Dataset
+SELECT *
+FROM [dbo].[laptop_sales_cleaned];
+
+-- Count Total Records
+SELECT COUNT(*) AS TotalRows
+FROM [dbo].[laptop_sales_cleaned];
+
+-- Check for Duplicate Laptop Names
+SELECT
+    Name,
+    COUNT(*) AS CountOfRows
+FROM [dbo].[laptop_sales_cleaned]
+GROUP BY Name
+HAVING COUNT(*) > 1;
